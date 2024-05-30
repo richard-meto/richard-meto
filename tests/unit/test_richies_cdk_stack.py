@@ -1,10 +1,10 @@
 import aws_cdk as core
 import aws_cdk.assertions as assertions
 
-from richies_cdk.richies_cdk_stack import RichiesCdkStack
+from richies_cdk.richies_pipeline_stack import RichiesCdkStack
 
 # example tests. To run these tests, uncomment this file along with the example
-# resource in richies_cdk/richies_cdk_stack.py
+# resource in richies_cdk/richies_pipeline_stack.py
 def test_sqs_queue_created():
     app = core.App()
     stack = RichiesCdkStack(app, "richies-cdk")

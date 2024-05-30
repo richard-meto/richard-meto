@@ -3,7 +3,7 @@ import os
 
 import aws_cdk as cdk
 
-from richies_cdk.richies_cdk_stack import RichiesCdkStack
+from richies_cdk.richies_pipeline_stack import RichiesCdkStack
 
 
 app = cdk.App()
